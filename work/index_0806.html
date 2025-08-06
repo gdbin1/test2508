@@ -1,164 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>float_a</title>
+    <title>Document</title>
     <style>
-        img {
-            float: left;
-        }
-
-        li {
-            display: inline-block;
-            position: relative;
-        }
-
-        p {
-            display: inline-block;
-        }
-
-        /* ▼ 추가: 서브메뉴 숨기기 */
-        li>ul {
-            display: none;
-            position: absolute;
-            left: 0;
-            top: 100%;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 0;
-            margin: 0;
-            min-width: 120px;
-            z-index: 10;
-        }
-
-        /* ▼ 추가: 마우스 올렸을 때 서브메뉴 보이기 */
-        li:hover>ul {
-            display: block;
-        }
-
-        /* ▼ 추가: 서브메뉴 항목 스타일 */
-        li>ul>li {
-            display: block;
-            width: 100%;
-            border-bottom: 1px solid #eee;
-        }
-
-        li>ul>li:last-child {
-            border-bottom: none;
-        }
-
-        header .menu {
-            position: relative;
-            width: 33.33%;
-        }
-
-        header .menu:hover>a {
-            color: red;
-            background-color: yellow;
-        }
-
-        header .subMenu {
-            width: 100%;
-
-            position: absolute;
-            z-index: 998;
-
-            display: none;
-        }
-
-        header .subMenu li:hover a {
-            color: blueviolet;
-            background-color: aquamarine;
-        }
-
-        .horizontal-menu {
-            display: flex;
-            /* 가로 배치 */
-            justify-content: flex-end;
-            /* 오른쪽 정렬 */
-            padding: 0;
-            margin: 10px 0;
-            list-style: none;
-            gap: 5px;
-            /* 항목 간 간격, 필요에 따라 조절 */
-        }
+        table,tr,td{border: 1px solid;}
     </style>
 </head>
-
 <body>
-    <header style="height: 100px; border: 1px solid;">
-        <div>
-            <img src="#" alt="로고" style="width: 200px; height: 40px;">
-            <div>
-                <ul class="horizontal-menu" style="display: flex; padding: 0; margin: 0; list-style: none;">
-                    <li class="menu"><a href="#">MENU-1</a>
-                        <ul style="font-size: 80%; margin-left: 10px;" class="subMenu">
-                            <li><a href="#">SubMenu-1</a></li>
-                            <li><a href="#">SubMenu-2</a></li>
-                            <li><a href="#">SubMenu-3</a></li>
-                            <li><a href="#">SubMenu-4</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu"><a href="#">MENU-2</a>
-                        <ul style="font-size: 80%; margin-left: 10px;" class="subMenu">
-                            <li><a href="#">SubMenu-1</a></li>
-                            <li><a href="#">SubMenu-2</a></li>
-                            <li><a href="#">SubMenu-3</a></li>
-                            <li><a href="#">SubMenu-4</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu"><a href="#">MENU-3</a>
-                        <ul style="font-size: 80%; margin-left: 10px;" class="subMenu">
-                            <li><a href="#">SubMenu-1</a></li>
-                            <li><a href="#">SubMenu-2</a></li>
-                            <li><a href="#">SubMenu-3</a></li>
-                            <li><a href="#">SubMenu-4</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu"><a href="#">MENU-4</a>
-                        <ul style="font-size: 80%; margin-left: 10px;" class="subMenu">
-                            <li><a href="#">SubMenu-1</a></li>
-                            <li><a href="#">SubMenu-2</a></li>
-                            <li><a href="#">SubMenu-3</a></li>
-                            <li><a href="#">SubMenu-4</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <section style="height: 300px; border: 1px solid;">
-        <p style="text-align: center; font-size: 200%;">이미지 슬라이드</p>
-    </section>
-    <section style="height: 200px; border: 1px solid;">
-        <ul style="display: flex; height: 100%; padding: 0; margin: 0; list-style: none;">
-            <li style="flex: 1; border: 1px solid #222; display: flex; align-items: center; justify-content: center;">
-                공지/갤러리
-            </li>
-            <li style="flex: 1; border: 1px solid #222; display: flex; align-items: center; justify-content: center;">
-                배너
-            </li>
-            <li style="flex: 1; border: 1px solid #222; display: flex; align-items: center; justify-content: center;">
-                바로가기
-            </li>
-        </ul>
-    </section>
-    <footer style="height: 100px; border: 1px solid; overflow: hidden;">
-        <p
-            style="float: left; width: 20%; height: 100%; margin: 0; border-right: 1px solid #ccc; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-            로고
-        </p>
-        <p
-            style="float: left; width: 60%; height: 100%; margin: 0; border-right: 1px solid #ccc; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-            카피라이트
-        </p>
-        <p
-            style="float: left; width: 20%; height: 100%; margin: 0; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-            sns
-        </p>
-    </footer>
+    <table>
+        <tr>
+            <td><a href="./index_0806_01.html">float_a</a></td>
+        </tr>
+        <tr>
+            <td><a href="./index_0806_02.html">float_b</a></td>
+        </tr>
+        <tr>
+            <td><a href="./index_0806_03.html">float>c</a></td>
+        </tr>
+    </table>
 </body>
-
 </html>
